@@ -1,5 +1,3 @@
-// moca-ios-sdk SPM package
-//
 // swift-tools-version: 5.9
 import PackageDescription
 
