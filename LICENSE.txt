@@ -1,0 +1,5 @@
+Copyright (c) 2025 Moca Technologies, LLC. All rights reserved.
+
+This repository provides metadata for integrating the proprietary Moca iOS SDK.
+The Moca SDK binary is distributed under the Moca SaaS License Agreement.
+Use of this software is permitted only under the terms of that agreement.
