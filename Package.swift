@@ -1,9 +1,11 @@
+// moca-ios-sdk SPM package
+//
 // swift-tools-version: 5.9
 import PackageDescription
 
 let package = Package(
   name: "MocaSDK",
-  platforms: [.iOS(.v11)],
+  platforms: [.iOS(.v12)],
   products: [
     .library(
       name: "MocaSDK",
