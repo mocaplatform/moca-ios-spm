@@ -32,9 +32,6 @@ let package = Package(
 
         // Libraries
         .linkedLibrary("sqlite3"),
-
-        // Match podspec OTHER_LDFLAGS
-        .unsafeFlags(["-ObjC", "-all_load"], .when(platforms: [.iOS])),
       ]
     )
   ]
