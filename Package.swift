@@ -11,8 +11,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "MocaSDK",
-      url: "https://bin.mocaplatform.com/releases/moca-ios-sdk-3.12.2.xcframework.zip",
-      checksum: "a68038daf81cbc7dbc44daa2751fba9768ca1ba6340a2b3cac60b84a18d73ad2"
+      url: "https://bin.mocaplatform.com/releases/moca-ios-sdk-3.12.3.xcframework.zip",
+      checksum: "9a37b76905be6d1c1e2425daf26274a3492195f53753297f55214b8a2219f0c3"
     ),
     // Wrapper target that declares required dependencies
     .target(
