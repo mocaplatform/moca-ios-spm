@@ -6,7 +6,7 @@ let package = Package(
   platforms: [.iOS(.v12)],
   products: [
     // Expose both: the binary and link dependencies
-    .library(name: "MocaSDK", targets: ["MocaSDKSupport", "MocaSDK"]),
+    .library(name: "MocaSDK", targets: ["MocaSDKSupport"]),
   ],
   targets: [
     .binaryTarget(
@@ -17,6 +17,7 @@ let package = Package(
     // Wrapper target that declares required dependencies
     .target(
       name: "MocaSDKSupport",
+      dependencies: ["MocaSDK"],  
       path: "Sources/MocaSDKSupport",
       linkerSettings: [
         // Frameworks (from podspec)
